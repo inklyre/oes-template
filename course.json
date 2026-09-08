@@ -1,0 +1,13 @@
+{
+  "$schema": "https://inklyre.github.io/oes/schemas/ocf/v0.3.0/course.schema.json",
+  "ocf_version": "0.3.0",
+  "id": "my-course",
+  "title": "My Course",
+  "license": "CC0-1.0",
+  "modules": [
+    {
+      "id": "intro",
+      "path": "modules/intro"
+    }
+  ]
+}

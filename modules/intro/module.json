@@ -1,0 +1,12 @@
+{
+  "$schema": "https://inklyre.github.io/oes/schemas/ocf/v0.3.0/course.schema.json",
+  "ocf_version": "0.3.0",
+  "id": "intro",
+  "title": "Introduction",
+  "lessons": [
+    {
+      "id": "welcome",
+      "path": "lessons/welcome"
+    }
+  ]
+}

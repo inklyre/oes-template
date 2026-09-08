@@ -1,0 +1,13 @@
+{
+  "$schema": "https://inklyre.github.io/oes/schemas/opf/v0.2.0/set.schema.json",
+  "opf_version": "0.2.0",
+  "id": "quiz",
+  "title": "Quick Check",
+  "questions": [
+    {
+      "id": "example-question",
+      "path": "questions/example-question.json",
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://inklyre.github.io/oes/schemas/oqf/v0.1.0/question.schema.json",
+  "oqf_version": "0.1.0",
+  "id": "example-question",
+  "type": "mcq",
+  "title": "Example Question",
+  "statement": "What does OES stand for?",
+  "type_config": {
+    "options": [
+      {
+        "id": "a",
+        "content": "Open Education Standards"
+      },
+      {
+        "id": "b",
+        "content": "Open Educational Software"
+      },
+      {
+        "id": "c",
+        "content": "Online Exam System"
+      }
+    ],
+    "answer": "a"
+  }
+}
