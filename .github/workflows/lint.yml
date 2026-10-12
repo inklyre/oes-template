@@ -8,7 +8,13 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - uses: inklyre/oes-tooling/.github/actions/lint@main
         with:
           path: .
+          # Pinned to the oes-lint release that matches the spec versions
+          # this course is written in (OCF 0.3.0, OPF 0.2.0, OQF 0.1.0).
+          # "latest" would start failing this course the day a release
+          # targeting newer spec versions ships, with nothing here having
+          # changed. Bump this together with the *_version fields.
+          version: "0.2.0"

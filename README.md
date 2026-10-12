@@ -17,7 +17,7 @@ npm create oes my-course
 Then edit `course.json`, `modules/intro/module.json`, and the files under
 `modules/intro/lessons/welcome/` to make it your own — add more modules,
 lessons, and lesson items (articles, videos, practice sets, resources) as
-you go. See [OCF's Getting Started](https://inklyre.github.io/oes/specs/ocf/getting-started)
+you go. See [OCF's Getting Started](https://oes.inklyre.org/specs/ocf/getting-started)
 for what each file does and how the pieces connect.
 
 ## What's already set up
@@ -25,7 +25,7 @@ for what each file does and how the pieces connect.
 - **Inline validation/autocomplete.** Every generated document carries a
   `$schema` field, and `.vscode/settings.json` maps every OES filename to
   its schema too — either gets you real-time validation and autocomplete
-  while editing in VS Code. See [Editor Setup](https://inklyre.github.io/oes/editor-setup)
+  while editing in VS Code. See [Editor Setup](https://oes.inklyre.org/editor-setup)
   for other editors and for pinning to a specific schema version.
 - **Lint on every push/PR.** `.github/workflows/lint.yml` runs
   [`oes lint`](https://github.com/inklyre/oes-tooling/tree/main/packages/lint)
@@ -37,6 +37,6 @@ for what each file does and how the pieces connect.
 
 Once you push this to a public GitHub repo, any OES-compatible LMS can
 point at your `course.json`'s raw URL directly — no build step, no
-server. See [OPF's Hosting guide](https://inklyre.github.io/oes/specs/opf/hosting)
+server. See [OPF's Hosting guide](https://oes.inklyre.org/specs/opf/hosting)
 (the canonical one — hosting works the same across every OES spec) for
 private-repo and object-storage alternatives.

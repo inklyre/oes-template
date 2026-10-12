@@ -1,5 +1,5 @@
 {
-  "$schema": "https://inklyre.github.io/oes/schemas/oqf/v0.1.0/question.schema.json",
+  "$schema": "https://oes.inklyre.org/schemas/oqf/v0.1.0/question.schema.json",
   "oqf_version": "0.1.0",
   "id": "example-question",
   "type": "mcq",

@@ -2,31 +2,31 @@
   "json.schemas": [
     {
       "fileMatch": ["course.json", "module.json", "lesson.json"],
-      "url": "https://inklyre.github.io/oes/schemas/ocf/v0.3.0/course.schema.json"
+      "url": "https://oes.inklyre.org/schemas/ocf/v0.3.0/course.schema.json"
     },
     {
       "fileMatch": ["set.json"],
-      "url": "https://inklyre.github.io/oes/schemas/opf/v0.2.0/set.schema.json"
+      "url": "https://oes.inklyre.org/schemas/opf/v0.2.0/set.schema.json"
     },
     {
       "fileMatch": ["question.json"],
-      "url": "https://inklyre.github.io/oes/schemas/oqf/v0.1.0/question.schema.json"
+      "url": "https://oes.inklyre.org/schemas/oqf/v0.1.0/question.schema.json"
     },
     {
       "fileMatch": ["stimulus.json"],
-      "url": "https://inklyre.github.io/oes/schemas/oqf/v0.1.0/stimulus.schema.json"
+      "url": "https://oes.inklyre.org/schemas/oqf/v0.1.0/stimulus.schema.json"
     },
     {
       "fileMatch": ["article.json"],
-      "url": "https://inklyre.github.io/oes/schemas/oaf/v0.1.0/article.schema.json"
+      "url": "https://oes.inklyre.org/schemas/oaf/v0.1.0/article.schema.json"
     },
     {
       "fileMatch": ["video.json"],
-      "url": "https://inklyre.github.io/oes/schemas/ovf/v0.1.0/video.schema.json"
+      "url": "https://oes.inklyre.org/schemas/ovf/v0.1.0/video.schema.json"
     },
     {
       "fileMatch": ["resource.json"],
-      "url": "https://inklyre.github.io/oes/schemas/orf/v0.1.0/resource.schema.json"
+      "url": "https://oes.inklyre.org/schemas/orf/v0.1.0/resource.schema.json"
     }
   ]
 }
